@@ -1,0 +1,68 @@
+<div *ngIf="showMain">
+    <router-outlet></router-outlet>
+
+    <footer>
+
+        <app-footer></app-footer>
+
+    </footer>
+</div>
+
+
+
+<a *ngIf="showGoUp" (click)="scrollTop()" class="back-to-top">
+    <i class="bi bi-arrow-up-short"></i>
+</a>
+
+<!--<div id="preloader">
+<div class="loader" id="loader-1"></div>
+</div>-->
+
+<div *ngIf="!showMain" class="main row col-md-12">
+    <div class="col-md-6 col-sm-12 col-xs-12 left-timmer">
+        <div class="icon">
+            <img src="assets/AUXILEO_LABS_logo.png">
+        </div>
+        <div class="timmer-block row col-md-12">
+            <div class="col-md-3 col-sm-3 col-3">
+                <div class="timmer">{{days}}</div>
+                <div class="timmer-text">Days</div>
+            </div>
+            <div class="col-md-3  col-sm-3  col-3">
+                <div class="timmer">{{hours}}</div>
+                <div class="timmer-text">Hours</div>
+            </div>
+            <div class="col-md-3  col-sm-3  col-3">
+                <div class="timmer">{{minutes}}</div>
+                <div class="timmer-text">Minutes</div>
+            </div>
+            <div class="col-md-3  col-sm-3  col-3">
+                <div class="timmer">{{seconds}}</div>
+                <div class="timmer-text">Seconds</div>
+            </div>
+        </div>
+        <div class="social">
+            <a target="_blank" href="https://www.linkedin.com/in/auxileo-labs-30245320a/"><i class="bi bi-linkedin"></i></a>
+            <a target="_blank" href="https://twitter.com/auxileolabs"><i class="bi bi-twitter"></i></a>
+            <a target="_blank" href="https://www.instagram.com/auxileolabs/"><i class="bi bi-instagram"></i></a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCrUGo6i4HHlsJg31x38rVmA"><i class="bi bi-youtube"></i></a>
+        </div>
+
+    </div>
+
+    <div class="col-md-6 col-sm-12 right-contact">
+        <div class="icon"></div>
+        <div class="text-stay">STAY TUNED</div>
+        <div class="text-launch">We Will Launch Soon</div>
+        <div class="text-subscribe">Subscribe to get notification as soon as we launch!</div>
+        <div class="email-block row col-md-12">
+            <input type="text" [(ngModel)]="emailText" class="col-md-8 col-sm-6 email" placeholder="Enter your email">
+            <input type="submit" value="NOTIFY ME" class="col-md-3 col-sm-5 submit" (click)="submitEmail()">
+        </div>
+
+        <div class="row col-md-12 contact">
+            <div class="col-md-12 col-sm-12 col-12"><i class="bi bi-envelope"></i> info@auxileolabs.com</div>
+        </div>
+    </div>
+
+</div>

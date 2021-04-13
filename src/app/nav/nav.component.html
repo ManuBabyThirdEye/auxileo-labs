@@ -1,0 +1,18 @@
+<nav id="nav" class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
+    <div class="container">
+        <div class="navbar-brand" [routerLink]="['']"><img style="height: 40px;" src="assets/images/logo_3.png" alt=""><label>AUXILEO LABS</label></div>
+        <button *ngIf="showLinkInteral" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list"></i>
+        </button>
+        <div *ngIf="showLinkInteral" class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                <li class="nav-item"><a class="nav-link page-scroll" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link page-scroll" href="#courses">Courses</a></li>
+                <li class="nav-item"><a class="nav-link page-scroll" href="#mission">About Us</a></li>
+                <li class="nav-item"><a class="nav-link page-scroll" href="#videos">Videos</a></li>
+                <li class="nav-item"><a class="nav-link page-scroll" href="#blog">Blogs</a></li>
+                <li class="nav-item"><a class="nav-link page-scroll" href="#testimonial">Testimonial</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>

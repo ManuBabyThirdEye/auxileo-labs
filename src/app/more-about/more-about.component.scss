@@ -1,0 +1,100 @@
+.hero-area-2 {
+    color: #fff;
+    overflow: hidden;
+    position: relative
+}
+
+.hero-area-2 .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #3c96ff, #2dfbff);
+}
+
+.section {
+    padding: 0px 0 20px;
+    background: #f6fbfd
+}
+
+.section-header {
+    color: #fff;
+    margin-bottom: 50px;
+    text-align: center;
+    position: relative;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.section-header .section-title {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    background-color: #2dfbff;
+    background-image: linear-gradient(to right, #3c96ff, #2dfbff);
+    position: relative;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.header {
+    background: -webkit-linear-gradient(left, #3c96ff 0%, #2dfbff 100%)!important;
+    background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%)!important;
+    height: 58px;
+    margin-bottom: 20px;
+}
+
+.btn-subtitle {
+    color: #191c1e;
+    font-family: poppins, sans-serif;
+    background: #dbecff;
+    text-align: center;
+    border-radius: 30px;
+    padding: 6px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.text-wrapper {
+    height: 100%;
+    width: 100%;
+    display: table
+}
+
+.text-wrapper>div {
+    margin-top: 100px;
+}
+
+.text-wrapper h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.text-wrapper p {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.text-wrapper .btn-rm {
+    margin-top: 15px
+}
+
+@media(min-width:320px) and (max-width:480px) {
+    .text-wrapper>div {
+        margin-top: 30px;
+    }
+    .header {
+        height: 15px;
+        margin-bottom: 20px;
+    }
+}

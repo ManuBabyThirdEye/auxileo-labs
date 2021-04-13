@@ -1,0 +1,28 @@
+<section *ngIf="blogs.length>0" id="blog" class="section">
+
+    <div class="container">
+        <button *ngIf="showMore" type="submit" class="btn btn-common btn-search" [routerLink]="['all-blogs']">more <i class="bi bi-arrow-right"></i></button>
+        <div class="section-header">
+            <p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">Blog</p>
+            <h2 class="section-title">Recent News</h2>
+        </div>
+        <div class="row">
+            <div *ngFor="let b of blogs" class="col-lg-4 col-md-6 col-xs-12 blog-item">
+                <div class="blog-item-wrapper">
+                    <div class="blog-item-img">
+                        <a target="_blank" href="{{b.blogUrl}}"><img src="{{b.thumbnail}}" alt=""></a>
+                        <div class="author-img"><img src="{{b.authorImage}}" alt=""></div>
+                    </div>
+                    <div class="blog-item-text">
+                        <h3><a target="_blank" href="{{b.blogUrl}}">{{b.heading}}</a></h3>
+                        <div class="author">
+                            <span class="name"><a href="#">{{b.author}}</a></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>

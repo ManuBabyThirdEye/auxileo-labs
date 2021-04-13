@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/auxileo-labs",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

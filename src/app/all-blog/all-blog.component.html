@@ -1,0 +1,45 @@
+<header id="home" class="hero-area-2">
+
+    <div class="overlay"></div>
+    <app-nav [showLinks]='false'></app-nav>
+    <div class="container">
+        <div class="row space-100">
+            <div class="col-lg-7 col-md-12 col-xs-12">
+                <div class="contents">
+                    <h2 class="head-title">BLOGS</h2>
+                    <p>Auxileo Labs writes blog as part of our knowledge sharing activity. We strongly believe that the knowledge that we share constitutes a valuable intangible asset for creating and sustaining competitive advantages. Apart from the subject
+                        related articles, we share recent news at Auxileo Labs through our blog. </p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12 col-xs-12">
+                <!--<div class="intro-img">
+                    <img src="assets/images/students.png" alt="">
+                </div>-->
+            </div>
+        </div>
+    </div>
+</header>
+
+<section *ngIf="blogs.length>0" id="blog" class="section">
+
+    <div class="container">
+        <div class="row">
+            <div *ngFor="let b of blogs" class="col-lg-4 col-md-6 col-xs-12 blog-item">
+                <div class="blog-item-wrapper">
+                    <div class="blog-item-img">
+                        <a target="_blank" href="{{b.blogUrl}}"><img src="{{b.thumbnail}}" alt=""></a>
+                        <div class="author-img"><img src="{{b.authorImage}}" alt=""></div>
+                    </div>
+                    <div class="blog-item-text">
+                        <h3><a target="_blank" href="{{b.blogUrl}}">{{b.heading}}</a></h3>
+                        <div class="author">
+                            <span class="name"><a href="#">{{b.author}}</a></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>

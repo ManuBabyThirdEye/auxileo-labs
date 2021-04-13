@@ -1,0 +1,343 @@
+.hero-area-2 {
+    color: #fff;
+    overflow: hidden;
+    position: relative
+}
+
+.hero-area-2 .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #3c96ff, #2dfbff);
+}
+
+.hero-area-2 .contents {
+    padding: 160px 0 140px
+}
+
+.hero-area-2 .contents h2 {
+    color: #fff;
+    font-size: 42px;
+    line-height: 60px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.hero-area-2 .contents p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.hero-area-2 .contents .btn {
+    margin-top: 40px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.hero-area-2 .contents .btn-border {
+    border: 2px solid #fff;
+    color: #fff
+}
+
+.hero-area-2 .intro-img {
+    padding: 180px 0 0
+}
+
+.hero-area-2 .intro-img img {
+    display: block;
+    height: auto;
+    max-width: 100%
+}
+
+.hero-area {
+    background: #3c96ff;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+    position: relative
+}
+
+.screens-shot {
+    background: #f6fbfd
+}
+
+.section {
+    padding: 80px 0 65px
+}
+
+.section-header {
+    color: #fff;
+    margin-bottom: 50px;
+    text-align: center;
+    position: relative;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.section-header .section-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    background-color: #2dfbff;
+    background-image: linear-gradient(to right, #3c96ff, #2dfbff);
+    position: relative;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-family: poppins, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    display: inline-block;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.btn-subtitle {
+    color: #191c1e;
+    font-family: poppins, sans-serif;
+    background: #dbecff;
+    text-align: center;
+    border-radius: 30px;
+    padding: 6px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 14px
+}
+
+.btn:focus,
+.btn:active {
+    box-shadow: none;
+    outline: none
+}
+
+.btn-common {
+    background-image: linear-gradient(to right, #3c96ff, #2dfbff);
+    position: relative;
+    z-index: 1
+}
+
+.btn-common:hover {
+    color: #fff;
+    box-shadow: 0 8px 9px 0 rgba(96, 94, 94, .17)
+}
+
+.btn-effect {
+    overflow: hidden
+}
+
+.btn-effect:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .1);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease
+}
+
+.btn-effect:hover:after {
+    width: 100%
+}
+
+.btn-border {
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: #3c9cfd;
+    color: #3c9cfd
+}
+
+.btn-border:hover {
+    box-shadow: 0 8px 9px 0 rgba(96, 94, 94, .17)
+}
+
+.btn-border-filled {
+    cursor: pointer;
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #3c9cfd
+}
+
+.btn-border-filled:hover {
+    color: #3c9cfd;
+    background-color: #fff;
+    box-shadow: 0 8px 9px 0 rgba(96, 94, 94, .17)
+}
+
+.btn-lg {
+    padding: 14px 33px;
+    text-transform: uppercase;
+    font-size: 16px
+}
+
+.btn-rm {
+    color: #3c9cfd;
+    padding: 10px 0;
+    text-transform: capitalize;
+    font-size: 16px
+}
+
+.btn-rm i {
+    vertical-align: middle
+}
+
+.btn-trial {
+    background: #fff;
+    color: #191c1e;
+    padding: 5px 20px;
+    margin-left: 30px
+}
+
+.btn-trial:hover,
+.btn-trial:active,
+.btn-trial:focus {
+    color: #3c9cfd
+}
+
+.btn-apple {
+    border-width: 2px;
+    border-color: #3c96ff;
+    border-style: solid;
+    background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out
+}
+
+.btn-apple i {
+    background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.btn-apple:hover,
+.btn-apple:active,
+.btn-apple:focus {
+    background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%)!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important
+}
+
+button:focus {
+    outline: none!important
+}
+
+.btn-border-fill {
+    background: #fff;
+    border-color: #fff;
+    color: #3c9cfd
+}
+
+.clear {
+    clear: both
+}
+
+.mt {
+    margin-top: 80px
+}
+
+.mt-30 {
+    margin-top: 30px
+}
+
+.mb-30 {
+    margin-bottom: 30px
+}
+
+.mb-50 {
+    margin-bottom: 50px
+}
+
+.padding-0 {
+    padding: 0
+}
+
+.btn-search {
+    z-index: 2;
+    width: 156px;
+    font-weight: 600;
+    background: #f6fbfd;
+    color: #3c96ff;
+    height: 52px;
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    right: 35px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    &:hover {
+        background: #3c96ff;
+        color: #fff;
+    }
+}
+
+.item {
+    padding: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item .blog-item-text {
+    padding: 10px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.item .blog-item-text h3 {
+    line-height: 26px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.item .blog-item-text h3 a {
+    color: #191c1e;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.item .blog-item-text h3 a:hover {
+    color: #3c9cfd
+}
+
+.item .author .name a {
+    color: #a0a6ad;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.item .author .name a:hover {
+    color: #3c9cfd
+}
+
+.item .author .date {
+    font-size: 14px
+}

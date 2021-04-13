@@ -1,0 +1,25 @@
+.count-box {
+    background-image: linear-gradient(to right, #3c96ff, #2dfbff);
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    font-family: poppins, sans-serif;
+    .count {
+        color: white;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .count-item {
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+        font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    }
+}
+
+.row {
+    margin: 0px;
+}
+
+@media only screen and (max-width:767px) {}
+
+@media(min-width:320px) and (max-width:480px) {}
